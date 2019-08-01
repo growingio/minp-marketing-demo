@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "自定义首页",
+  "usingComponents": {
+    "gio-marketing": "../../../static/components/gio-marketing/gio-marketing"
+  }
+}
