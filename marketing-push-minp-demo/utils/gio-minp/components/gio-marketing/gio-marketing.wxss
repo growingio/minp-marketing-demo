@@ -2,21 +2,24 @@
 .inner {
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 100000000;
   background-color: rgba(50, 50, 50, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .image {
-  max-width: 80vw;
+  width: 80vw;
   height: 100vw;
-  margin-left: 10vw;
-  margin-top: calc(50vh - 55vw);
 }
 
 .close {
   margin-top: 1.5vw;
-  margin-left: 46vw;
   color: #fff;
   border: 1px solid #fff;
   font-size: 4vw;
