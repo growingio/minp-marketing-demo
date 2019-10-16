@@ -1,8 +1,10 @@
 import Vue from 'vue'
+
+const gio = require('./utils/gio-minp/index').default;
+const gioConfig = require('./utils/gio-minp/gioConfig').default;
+gio('setConfig', gioConfig);
+
 import App from './App'
-// import './utils/gio-minp/index'
-import gio from './utils/gio-minp/index'
-gio('send', {})
 Vue.config.productionTip = false
 App.mpType = 'app'
 
