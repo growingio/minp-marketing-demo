@@ -3,7 +3,7 @@ var gioConfig = require('./utils/gio-minp/cjs/gioConfig').default;
 
 gio('setConfig', gioConfig);
 
-gio('setUserId', 12);
+// gio('setUserId', 12);
 
 //app.js
 App({
