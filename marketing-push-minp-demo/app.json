@@ -9,7 +9,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "black",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#eaeaea"
@@ -50,7 +50,8 @@
     "request": 10000
   },
   "usingComponents": {
-    "gio-marketing": "utils/gio-minp/cjs/components/gio-marketing/gio-marketing"
+    "gio-marketing": "utils/gio-minp/cjs/components/gio-marketing/gio-marketing",
+    "gio-banner": "utils/gio-minp/cjs/components/gio-banner/gio-banner"
   },
   "debug": true,
   "sitemapLocation": "sitemap.json"

@@ -1,5 +1,5 @@
 /* components/my-component.wxss */
-.inner {
+.gio-message-inner {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -13,20 +13,18 @@
   flex-direction: column;
 }
 
-.image {
+.gio-message-image {
   width: 80vw;
   height: 100vw;
 }
 
-.close {
+.gio-message-close {
   margin-top: 1.5vw;
   color: #fff;
   border: 1px solid #fff;
   font-size: 4vw;
-  padding: 1vw;
+  padding: 2vw;
   text-align: center;
   font-weight: bold;
-  border-radius: 5vw;
-  height: 6vw;
-  width: 6vw;
+  border-radius: 50%;
 }

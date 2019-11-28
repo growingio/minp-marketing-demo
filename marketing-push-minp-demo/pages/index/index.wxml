@@ -8,7 +8,7 @@
 </view>
 
 <swiper class="swiper" current="{{currentTopItem}}" bindchange="bindChange" duration="300" style="height:{{swiperHeight}}px" >
-
+ <gio-banner bannerKey='957cd4fe34e8445b' errorReplaceDrawable='/images/index/header_cry_icon.png' placeholderDrawable='/images/index/setup-head-default.png' interval="{{3000}}" vertical="{{false}}" />
   <!--全部-->
   <swiper-item>
     <scroll-view class="scrollView" scroll-y="true" bindscrolltolower="loadMoreData" >
