@@ -1,0 +1,27 @@
+{
+	"description": "A WePY project",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"appid": "wx3e30c2d62d090a71",
+	"projectname": "wepy-demo",
+	"miniprogramRoot": "weapp/",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}

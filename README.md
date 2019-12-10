@@ -42,6 +42,6 @@ npm run dev:wx
 将上一步打包出的`/dist`文件夹放入微信开发者工具中进行调试
 
 ## 其它
-其它微信小程序框架配置参照[GroingIO官方文档](https://docs.growingio.com/docs/sdk-integration/xiao-cheng-xu-xiao-you-xi-yi-ji-nei-qian-ye-sdk/wei-xin-xiao-cheng-xu-sdk/wei-xin-xiao-cheng-xu-sdk-sdk-ban-ben1.9.1/)
+其它微信小程序框架配置参照[GrowingIO官方文档](https://docs.growingio.com/docs/developer-manual/sdkintegrated/other-sdk/minp-sdk)
 
 组件使用参照**对应框架**官方文档中，对于**小程序组件的使用**篇章
