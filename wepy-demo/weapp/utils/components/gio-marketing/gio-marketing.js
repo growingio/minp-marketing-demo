@@ -93,8 +93,9 @@ function () {
   }, {
     key: "plusShowDate",
     value: function plusShowDate(e, t, s) {
-      var i = this.get(e, t);
-      i.showDate = Date.now() + s, this._set(e, t, i);
+      var i = this.get(e, t),
+          a = new Date(Date.now() + s);
+      a.setHours(0), a.setMinutes(0), a.setSeconds(0), i.showDate = a.getTime(), this._set(e, t, i);
     }
   }]);
 

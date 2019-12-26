@@ -154,63 +154,63 @@ _core["default"].page({
       }
     });
   }
-}, {info: {"components":{"list":{"path":"../components/wepy-list"},"gio-marketing":{"path":"../utils/components/gio-marketing/gio-marketing"},"group":{"path":"../components/group"},"panel":{"path":"../components/panel"},"counter":{"path":"../components/counter"},"slide-view":{"path":"../$vendor/_miniprogram-slide-view@0.0.3@miniprogram-slide-view/miniprogram_dist/index"}},"on":{"7-23":["index-emit"]}}, handlers: {'7-16': {"tap": function proxy () {
+}, {info: {"components":{"list":{"path":"../components/wepy-list"},"gio-marketing":{"path":"../utils/components/gio-marketing/gio-marketing"},"gio-banner":{"path":"../utils/components/gio-banner/gio-banner"},"group":{"path":"../components/group"},"panel":{"path":"../components/panel"},"counter":{"path":"../components/counter"},"slide-view":{"path":"../$vendor/_miniprogram-slide-view@0.0.3@miniprogram-slide-view/miniprogram_dist/index"}},"on":{"9-7":["index-emit"]}}, handlers: {'9-0': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.handleViewTap($event);
       })();
     
-  }},'7-17': {"tap": function proxy () {
+  }},'9-1': {"tap": function proxy () {
     
     var _vm=this;
       return (function () {
         _vm.currentTime = +new Date();
       })();
     
-  }},'7-18': {"tap": function proxy () {
+  }},'9-2': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.mixintap($event);
       })();
     
-  }},'7-19': {"tap": function proxy () {
+  }},'9-3': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.communicate($event);
       })();
     
-  }},'7-20': {"tap": function proxy () {
+  }},'9-4': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.tap($event);
       })();
     
-  }},'7-21': {"tap": function proxy () {
+  }},'9-5': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.request($event);
       })();
     
-  }},'7-22': {"tap": function proxy () {
+  }},'9-6': {"tap": function proxy () {
     
     var _vm=this;
       return (function () {
         _vm.mynum++;
       })();
     
-  }},'7-23': {"index-emit": function proxy () {
+  }},'9-7': {"index-emit": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.counterEmit($event);
       })();
     
-  }}}, models: {'2': {
+  }}}, models: {'0': {
       type: "input",
       expr: "inputmodel",
       handler: function set ($v) {

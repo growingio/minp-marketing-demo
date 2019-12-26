@@ -57,6 +57,7 @@ module.exports.getTime = getTime;
 </wxs>
 <template>
   <div class="container">
+    <gio-banner placeholderDrawable="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4238546330,3195362340&fm=26&gp=0.jpg" bannerKey="957cd4fe34e8445b" />
     <gio-marketing />
     <div class="userinfo" @tap="handleViewTap">
       <image class="userinfo-avatar" src="{{ userInfo.avatarUrl }}" background-size="cover"/>
@@ -329,7 +330,8 @@ wepy.page({
       list: '../components/list',
       group: '../components/group',
       "slide-view": "module:miniprogram-slide-view",
-      "gio-marketing": "../utils/components/gio-marketing/gio-marketing.js"
+      "gio-marketing": "../utils/components/gio-marketing/gio-marketing.js",
+      "gio-banner": "../utils/components/gio-banner/gio-banner.js"
     }
 }
 </config>

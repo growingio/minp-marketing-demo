@@ -34,7 +34,7 @@ var process = { env: {} };
    return __wepy_require;
 })([
 /***** module 0 start *****/
-/***** /Users/growingio/Documents/wepy-demo/node_modules/_@wepy_core@2.0.0-alpha.12@@wepy/core/dist/wepy.js *****/
+/***** /Users/growingio/Documents/minp-marketing-demo/wepy-demo/node_modules/_@wepy_core@2.0.0-alpha.12@@wepy/core/dist/wepy.js *****/
 function(module, exports, __wepy_require) {'use strict';
 
 // can we use __proto__?
@@ -2782,7 +2782,7 @@ module.exports = wepy;
 
 
 /***** module 1 start *****/
-/***** /Users/growingio/Documents/wepy-demo/node_modules/_regenerator-runtime@0.11.1@regenerator-runtime/runtime.js *****/
+/***** /Users/growingio/Documents/minp-marketing-demo/wepy-demo/node_modules/_regenerator-runtime@0.11.1@regenerator-runtime/runtime.js *****/
 function(module, exports, __wepy_require) {/**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -3515,7 +3515,7 @@ function(module, exports, __wepy_require) {/**
 
 
 /***** module 2 start *****/
-/***** /Users/growingio/Documents/wepy-demo/node_modules/_regenerator-runtime@0.11.1@regenerator-runtime/runtime-module.js *****/
+/***** /Users/growingio/Documents/minp-marketing-demo/wepy-demo/node_modules/_regenerator-runtime@0.11.1@regenerator-runtime/runtime-module.js *****/
 function(module, exports, __wepy_require) {/**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -3556,7 +3556,7 @@ if (hadRuntime) {
 
 
 /***** module 3 start *****/
-/***** /Users/growingio/Documents/wepy-demo/node_modules/_vuex@3.1.2@vuex/dist/vuex.common.js *****/
+/***** /Users/growingio/Documents/minp-marketing-demo/wepy-demo/node_modules/_vuex@3.1.2@vuex/dist/vuex.common.js *****/
 function(module, exports, __wepy_require) {/**
  * vuex v3.1.2
  * (c) 2019 Evan You
@@ -4612,7 +4612,7 @@ module.exports = index;
 
 
 /***** module 4 start *****/
-/***** /Users/growingio/Documents/wepy-demo/node_modules/_@wepy_x@2.0.3@@wepy/x/dist/index.js *****/
+/***** /Users/growingio/Documents/minp-marketing-demo/wepy-demo/node_modules/_@wepy_x@2.0.3@@wepy/x/dist/index.js *****/
 function(module, exports, __wepy_require) {'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });

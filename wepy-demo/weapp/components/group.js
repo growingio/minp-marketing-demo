@@ -20,28 +20,7 @@ _core["default"].component({
       console.log("Clicked Group ".concat(index, ", ID is ").concat(this.grouplist.id));
     }
   }
-}, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event);
-      })();
-    
-  }}}, models: {}, refs: undefined }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event);
-      })();
-    
-  }}}, models: {}, refs: undefined }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event);
-      })();
-    
-  }}}, models: {}, refs: undefined }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
+}, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'16-0': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
