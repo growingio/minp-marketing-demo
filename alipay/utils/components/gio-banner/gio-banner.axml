@@ -1,0 +1,5 @@
+<swiper a:if='{{visible}}' class='gio-swiper' onChange='onSwiperChange' indicator-dots='{{indicatorDots || true}}' indicator-color="{{indicatorColor || 'rgba(0,0,0,0.3)'}}" indicator-active-color="{{indicatorActiveColor || '#000'}}" autoplay='{{autoplay || true}}' interval='{{interval || 5000}}' duration='{{duration || 500}}' circular='{{circular || true}}' vertical='{{vertical || false}}' previous-margin="{{previousMargin || '0px'}}" next-margin="{{nextMargin || '0px'}}" easing-function="{{easingFunction || 'default'}}">
+  <swiper-item a:for='{{bannerMessages}}' a:key='{{item.id}}'>
+    <image class='image' src='{{item.content}}' data-current='{{index}}' data-message='{{item}}' onTap='onClickTarget' onLoad='onImageLoaded' onError='onImageError'></image>
+  </swiper-item>
+</swiper>

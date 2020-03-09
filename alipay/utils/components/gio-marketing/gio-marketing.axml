@@ -1,0 +1,5 @@
+<!-- 这是自定义组件的内部WXML结构 -->
+<cover-view a:if='{{visible}}' class='gio-message-inner' catchTouchMove='handleTouchMove'>
+  <cover-image mode='widthFix' src='{{message.contentMetadata.components[0].config.src}}' class='gio-message-image' onTap='onClickTarget' onLoad='onImageLoad' onError='onImageError'></cover-image>
+  <cover-view class='gio-message-close' onTap='handleClose'>╳</cover-view>
+</cover-view>
